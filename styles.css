@@ -1,0 +1,45 @@
+header {
+	width: 100%;
+	height: 42px;
+	background-color: #58646D;
+}
+header ul {
+	height: 100%;
+	padding: 0px;
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+header ul li {
+	padding: 0 px 15px;
+	cursor: pointer;
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+}
+	header ul li.active{
+		text-decoration: underline;
+	}
+	header ul li:hover{
+		text-decoration: overline;
+	}
+
+main {
+	width: 100%;
+	height: 80vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+#content {
+	width: 800px;
+	height: 100%;
+	font-family: "Area Black", Gadget, sans-serif;
+	background-color: #a6d6d6;
+	font-style: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
